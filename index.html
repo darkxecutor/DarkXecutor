@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkXecutor - الموقع الرسمي</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/fkGkn8PK/IMG-20251018-WA0005.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #000000;
+            --secondary: #FFD700;
+            --accent: #FFFFFF;
+            --dark-gold: #B8860B;
+            --light-gold: #FFEC8B;
+            --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 100%);
+            color: var(--accent);
+            min-height: 100vh;
+            overflow-x: hidden;
+            font-family: 'Tajawal', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Loader */
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--primary);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+
+        .loader-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid rgba(255, 215, 0, 0.3);
+            border-top: 4px solid var(--secondary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        .loader-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, var(--secondary), var(--light-gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+            animation: pulse 2s infinite;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s ease 0.5s forwards;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .logo-container {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+
+        .logo {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: linear-gradient(145deg, var(--secondary), var(--light-gold));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 
+                0 0 50px rgba(255, 215, 0, 0.3),
+                0 0 100px rgba(255, 215, 0, 0.1),
+                inset 0 0 50px rgba(255, 255, 255, 0.1);
+            border: 3px solid var(--secondary);
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            background: conic-gradient(from 0deg, var(--secondary), var(--light-gold), var(--dark-gold), var(--secondary));
+            border-radius: 50%;
+            z-index: -1;
+            animation: rotate 3s linear infinite;
+            opacity: 0.7;
+            filter: blur(15px);
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            filter: brightness(1.1) contrast(1.1) saturate(1.2);
+            transition: var(--transition);
+        }
+
+        .logo:hover {
+            transform: scale(1.05) rotate(5deg);
+            box-shadow: 
+                0 0 80px rgba(255, 215, 0, 0.5),
+                0 0 120px rgba(255, 215, 0, 0.2);
+        }
+
+        .logo:hover img {
+            filter: brightness(1.2) contrast(1.2) saturate(1.3);
+        }
+
+        .title {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, var(--secondary), var(--light-gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+        }
+
+        .subtitle {
+            font-size: 1.4rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Social Grid */
+        .social-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .social-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+            border-radius: 20px;
+            padding: 2.5rem 2rem;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            transform-style: preserve-3d;
+        }
+
+        .social-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), transparent);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .social-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--secondary), var(--light-gold));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: var(--transition);
+        }
+
+        .social-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            border-color: rgba(255, 215, 0, 0.5);
+            box-shadow: 
+                0 20px 40px rgba(255, 215, 0, 0.2),
+                0 0 80px rgba(255, 215, 0, 0.1);
+        }
+
+        .social-card:hover::before {
+            opacity: 1;
+        }
+
+        .social-card:hover::after {
+            transform: scaleX(1);
+        }
+
+        .social-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        .social-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(45deg, var(--secondary), var(--light-gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transition: var(--transition);
+            display: inline-block;
+        }
+
+        .social-card:hover .social-icon {
+            transform: scale(1.2) rotate(10deg);
+            filter: drop-shadow(0 5px 15px rgba(255, 215, 0, 0.5));
+        }
+
+        .social-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            color: var(--accent);
+        }
+
+        .social-desc {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 5rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 215, 0, 0.2);
+        }
+
+        .copyright {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1rem;
+        }
+
+        /* Animations */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Particle Background */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            background: var(--secondary);
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: floatParticle 20s infinite linear;
+        }
+
+        @keyframes floatParticle {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.3;
+            }
+            90% {
+                opacity: 0.3;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem 15px;
+            }
+
+            .title {
+                font-size: 3rem;
+            }
+
+            .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .logo {
+                width: 180px;
+                height: 180px;
+            }
+
+            .social-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .social-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .loader-text {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 2.5rem;
+            }
+
+            .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .logo {
+                width: 150px;
+                height: 150px;
+            }
+
+            .social-icon {
+                font-size: 3rem;
+            }
+
+            .loader-text {
+                font-size: 1rem;
+            }
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(var(--secondary), var(--dark-gold));
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(var(--light-gold), var(--secondary));
+        }
+    </style>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">DarkXecutor</div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="https://i.postimg.cc/fkGkn8PK/IMG-20251018-WA0005.jpg" alt="DarkXecutor" id="profile-image">
+                </div>
+            </div>
+            <h1 class="title">DarkXecutor</h1>
+            <p class="subtitle">مطور واجهات مستخدم وتجارب رقمية مبتكرة. تواصل معي عبر منصات التواصل الاجتماعي لاكتشاف المزيد من أعمالي ومشاريعي.</p>
+        </header>
+
+        <div class="social-grid">
+            <a href="https://linkedin.com/in/dark-xecutor-489b01381" target="_blank" class="social-card" data-platform="linkedin">
+                <div class="social-content">
+                    <i class="fab fa-linkedin social-icon"></i>
+                    <h3 class="social-name">LinkedIn</h3>
+                    <p class="social-desc">الملف الشخصي المهني والخبرات العملية</p>
+                </div>
+            </a>
+            
+            <a href="https://whatsapp.com/channel/0029Vb660XQ65yDGjrTGBM3g" target="_blank" class="social-card" data-platform="whatsapp">
+                <div class="social-content">
+                    <i class="fab fa-whatsapp social-icon"></i>
+                    <h3 class="social-name">WhatsApp</h3>
+                    <p class="social-desc">قناة التحديثات والأخبار الحصرية</p>
+                </div>
+            </a>
+            
+            <a href="https://github.com/darkxecutor" target="_blank" class="social-card" data-platform="github">
+                <div class="social-content">
+                    <i class="fab fa-github social-icon"></i>
+                    <h3 class="social-name">GitHub</h3>
+                    <p class="social-desc">المشاريع البرمجية والمكتبات المفتوحة المصدر</p>
+                </div>
+            </a>
+            
+            <a href="https://www.youtube.com/channel/UCUw2Hn2SZs_g-zAG7tPvaqA" target="_blank" class="social-card" data-platform="youtube">
+                <div class="social-content">
+                    <i class="fab fa-youtube social-icon"></i>
+                    <h3 class="social-name">YouTube</h3>
+                    <p class="social-desc">قناة الفيديوهات التعليمية والعروض التوضيحية</p>
+                </div>
+            </a>
+            
+            <a href="https://www.facebook.com/profile.php?id=61579892290960" target="_blank" class="social-card" data-platform="facebook">
+                <div class="social-content">
+                    <i class="fab fa-facebook social-icon"></i>
+                    <h3 class="social-name">Facebook</h3>
+                    <p class="social-desc">الصفحة الشخصية والتحديثات اليومية</p>
+                </div>
+            </a>
+            
+            <a href="https://www.instagram.com/darkxecutor?igsh=MXhubGt0a2RjOXMyZg==" target="_blank" class="social-card" data-platform="instagram">
+                <div class="social-content">
+                    <i class="fab fa-instagram social-icon"></i>
+                    <h3 class="social-name">Instagram</h3>
+                    <p class="social-desc">الحساب الشخصي ومشاركة اللحظات الإبداعية</p>
+                </div>
+            </a>
+        </div>
+
+        <footer class="footer">
+            <p class="copyright">© 2024 DarkXecutor. جميع الحقوق محفوظة.</p>
+        </footer>
+    </div>
+
+    <script>
+    // Enhanced JavaScript with modern features
+    class DarkXecutorPortfolio {
+        constructor() {
+            this.init();
+        }
+
+        init() {
+            this.createParticles();
+            this.setupEventListeners();
+            this.handleLoader();
+            this.setupIntersectionObserver();
+        }
+
+        createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            
+            // التحقق من وجود العنصر أولاً
+            if (!particlesContainer) {
+                console.warn('Particles container not found');
+                return;
+            }
+
+            const particleCount = 50;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                
+                // Random properties
+                const size = Math.random() * 6 + 2;
+                const posX = Math.random() * 100;
+                const delay = Math.random() * 20;
+                const duration = Math.random() * 10 + 15;
+                
+                // إصلاح: استخدام backticks صحيحة للtemplate literals
+                particle.style.width = ${size}px;
+                particle.style.height = ${size}px;
+                particle.style.left = ${posX}vw;
+                particle.style.animationDelay = ${delay}s;
+                particle.style.animationDuration = ${duration}s;
+                
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        setupEventListeners() {
+            // Mouse move parallax effect
+            document.addEventListener('mousemove', (e) => {
+                this.handleMouseMove(e);
+            });
+
+            // Social card interactions
+            const socialCards = document.querySelectorAll('.social-card');
+            socialCards.forEach(card => {
+                card.addEventListener('mouseenter', () => this.animateCard(card, true));
+                card.addEventListener('mouseleave', () => this.animateCard(card, false));
+            });
+
+            // Image optimization
+            this.optimizeImage();
+        }
+
+        handleMouseMove(e) {
+            const moveX = (e.clientX - window.innerWidth / 2) * 0.01;
+            const moveY = (e.clientY - window.innerHeight / 2) * 0.01;
+            
+            const logo = document.querySelector('.logo');
+            if (logo) {
+                // إصلاح: استخدام backticks صحيحة
+                logo.style.transform = rotateX(${10 - moveY}deg) rotateY(${-5 + moveX}deg) scale(1.05);
+            }
+        }
+
+        animateCard(card, isHovering) {
+            if (isHovering) {
+                card.style.transform = 'translateY(-15px) scale(1.02)';
+            } else {
+                card.style.transform = 'translateY(0) scale(1)';
+            }
+        }
+
+        handleLoader() {
+            const loader = document.getElementById('loader');
+            
+            // التحقق من وجود العنصر
+            if (!loader) {
+                console.warn('Loader element not found');
+                return;
+            }
+
+            window.addEventListener('load', () => {
+                setTimeout(() => {
+                    loader.style.opacity = '0';
+                    setTimeout(() => {
+                        loader.style.display = 'none';
+                    }, 500);
+                }, 1000);
+            });
+
+            // Fallback في حالة تحميل الصفحة مسبقاً
+            if (document.readyState === 'complete') {
+                loader.style.display = 'none';
+            }
+        }
+
+        setupIntersectionObserver() {
+            // التحقق من دعم Intersection Observer
+            if (!('IntersectionObserver' in window)) {
+                this.fallbackAnimation();
+                return;
+            }
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '50px'
+            });
+
+            // Observe social cards for animation
+            const socialCards = document.querySelectorAll('.social-card');
+            if (socialCards.length === 0) {
+                console.warn('No social cards found for animation');
+                return;
+            }
+
+            socialCards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        }
+
+        // Fallback animation for browsers without Intersection Observer
+        fallbackAnimation() {
+            const socialCards = document.querySelectorAll('.social-card');
+            socialCards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        }
+
+        optimizeImage() {
+            const profileImage = document.getElementById('profile-image');
+            if (!profileImage) {
+                console.warn('Profile image not found');
+                return;
+            }
+
+            // التحقق مما إذا كانت الصورة محملة مسبقاً
+            if (profileImage.complete) {
+                this.applyImageEffects(profileImage);
+            } else {
+                profileImage.addEventListener('load', () => {
+                    this.applyImageEffects(profileImage);
+                });
+            }
+
+            // Fallback if image fails to load
+            profileImage.addEventListener('error', () => {
+                console.error('Failed to load profile image');
+                // يمكن إضافة صورة بديلة هنا
+            });
+        }
+
+        applyImageEffects(image) {
+            setTimeout(() => {
+                image.style.filter = 'brightness(1.15) contrast(1.15) saturate(1.2)';
+            }, 100);
+        }
+
+        // تنظيف event listeners عند التدمير
+        destroy() {
+            // إزالة event listeners هنا إذا كانت هناك حاجة
+        }
+    }
+
+    // Initialize the portfolio when DOM is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        // التحقق من عدم التهيئة المزدوجة
+        if (!window.portfolioInstance) {
+            window.portfolioInstance = new DarkXecutorPortfolio();
+        }
+    });
+
+    // Add error handling for global errors
+    window.addEventListener('error', (e) => {
+        console.error('Global error:', e.error);
+    });
+
+    // Add service worker for PWA capabilities (optional)
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            // navigator.serviceWorker.register('/sw.js')
+            //     .then(registration => {
+            //         console.log('SW registered: ', registration);
+            //     })
+            //     .catch(registrationError => {
+            //         console.log('SW registration failed: ', registrationError);
+            //     });
+        });
+    }
+</script>
+</body>
+</html>
