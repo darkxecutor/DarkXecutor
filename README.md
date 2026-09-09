@@ -16,7 +16,7 @@
 
 ---
 
-### 🌐 Connect with Me
+### 🍟🎃 Connect with Me
 
 <p align="right">
   <a href="mailto:your-email@gmail.com">
@@ -41,7 +41,7 @@
 
 ---
 
-### 📊 Statistics
+### 📈📉 Statistics
 
 <p align="center">
   <img src="https://github.com/darkxecutor/DarkXecutor/blob/14d9d1a11c93d7539ca0fdfe1a7c34738ec11336/Scuba%20Dancing%20Cat%20Sticker%20-%20Find%20%26%20Share%20on%20GIPHY.gif" width="190" alt="Gear Animation" />
@@ -51,7 +51,7 @@
 
 ---
 
-### 💻 Skills & Tools
+### 📂🌶️ Skills & Tools
 
 <div align="center">
   <img src="https://github.com/darkxecutor/DarkXecutor/blob/bc650f423784f05a9b104ad270f3cdb77e1badb7/tumblr_owi25v6uAo1r4gsiio1_1280_gif%20(1000%C3%97300)%20in%202024%20_%20Pixel%20art%20design%2C%20Pixel%20art%20background%2C%20Pix.gif" width="500" alt="Gear Animation" />
@@ -79,7 +79,7 @@
 
 ---
 
-### 📈 GitHub Stats
+### 📈📊 GitHub Stats
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
