@@ -107,5 +107,5 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:091519,100:3a8296&height=100&section=footer" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:091519,100:F4D03F&height=100&section=footer&text=Darkxecutor®&fontSize=20&fontColor=F4D03F&fontAlignY=70" alt="footer" style="display: block; width: 100%;" />
 </div>
