@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://github.com/darkxecutor/DarkXecutor/raw/e45458c12a739c991e2b98996f148ef0d3524829/oogabooga.gif" width="220" alt="Waving Animation" />
+  <img src="https://github.com/darkxecutor/DarkXecutor/raw/e45458c12a739c991e2b98996f148ef0d3524829/oogabooga.gif" width="500" alt="Waving Animation" />
 </p>
 
 <p align="center">
@@ -53,7 +53,7 @@
 ### 🛠️ Skills & Tools
 
 <div align="center">
-  <img src="https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" width="120" alt="Gear Animation" />
+  <img src="https://github.com/darkxecutor/DarkXecutor/blob/bc650f423784f05a9b104ad270f3cdb77e1badb7/tumblr_owi25v6uAo1r4gsiio1_1280_gif%20(1000%C3%97300)%20in%202024%20_%20Pixel%20art%20design%2C%20Pixel%20art%20background%2C%20Pix.gif" width="500" alt="Gear Animation" />
   <h3 style="color: #F7DF1E;">💻 Programming Languages</h3>
   <p align="center">
     <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
