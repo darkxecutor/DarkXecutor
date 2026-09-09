@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F97316&center=true&width=910&height=150&lines=JAWAD_Darkxecutor;Web+Developer;Tools+Developer+or+Software+Tools+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F7DF1E&center=true&width=910&height=150&lines=JAWAD_Darkxecutor;Web+Developer;Tools+Developer+or+Software+Tools+Developer" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ### 📫 Connect with Me
 
-<p align="center">
+<p align="right">
   <a href="mailto:your-email@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
@@ -53,30 +53,22 @@
 ### 🛠️ Skills & Tools
 
 <div align="center">
-  <table>
-    <tr>
-      <td valign="top" width="50%">
-        <h3>💻 Programming Languages</h3>
-        <p align="center">
-          <img src="https://skillicons.dev/icons?i=c" alt="C" />
-          <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
-          <img src="https://skillicons.dev/icons?i=python" alt="Python" />
-          <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
-          <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
-        </p>
-      </td>
-      <td valign="top" width="50%">
-        <h3>🧰 Tools & Platforms</h3>
-        <p align="center">
-          <img src="https://skillicons.dev/icons?i=git" alt="Git" />
-          <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
-          <img src="https://skillicons.dev/icons?i=linux" alt="Linux" />
-          <img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux" />
-          <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
-        </p>
-      </td>
-    </tr>
-  </table>
+  <h3>💻 Programming Languages</h3>
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
+    <img src="https://skillicons.dev/icons?i=python" alt="Python" />
+    <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
+    <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
+  </p>
+  
+  <h3>🧰 Tools & Platforms</h3>
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=git" alt="Git" />
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+    <img src="https://skillicons.dev/icons?i=linux" alt="Linux" />
+    <img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux" />
+    <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
+  </p>
 </div>
 
 <div align="center">
