@@ -43,7 +43,7 @@
 
 ---
 
-### 📈📉 Statistics
+### 📈📉 𝑺𝒕𝒂𝒕𝒊𝒔𝒕𝒊𝒄𝒔
 
 <p align="center">
   <img src="https://github.com/darkxecutor/DarkXecutor/blob/14d9d1a11c93d7539ca0fdfe1a7c34738ec11336/Scuba%20Dancing%20Cat%20Sticker%20-%20Find%20%26%20Share%20on%20GIPHY.gif" width="190" alt="Gear Animation" />
@@ -53,11 +53,11 @@
 
 ---
 
-### 📂🌶️ Skills & Tools
+### 📂🌶️ 𝑺𝒌𝒊𝒍𝒍𝒔 & 𝑻𝒐𝒐𝒍𝒔
 
 <div align="center">
   <img src="https://github.com/darkxecutor/DarkXecutor/blob/bc650f423784f05a9b104ad270f3cdb77e1badb7/tumblr_owi25v6uAo1r4gsiio1_1280_gif%20(1000%C3%97300)%20in%202024%20_%20Pixel%20art%20design%2C%20Pixel%20art%20background%2C%20Pix.gif" width="500" alt="Gear Animation" />
-  <h3 style="color: #F7DF1E;">🛠️ Programming Languages</h3>
+  <h2 style="color: #F7DF1E;">☕ 𝑷𝒓𝒐𝒈𝒓𝒂𝒎𝒎𝒊𝒏𝒈 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆𝒔</h2>
   <p align="center">
     <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
     <img src="https://skillicons.dev/icons?i=python" alt="Python" />
@@ -65,7 +65,7 @@
     <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
   </p>
   
-  <h3 style="color: #F7DF1E;">⚙️ Tools & Platforms</h3>
+  <h2 style="color: #F7DF1E;">🌍  𝑻𝒐𝒐𝒍𝒔 & 𝑷𝒍𝒂𝒕𝒇𝒐𝒓𝒎𝒔</h2>
   <p align="center">
     <img src="https://skillicons.dev/icons?i=git" alt="Git" />
     <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
@@ -81,7 +81,7 @@
 
 ---
 
-### 📈📊 GitHub Stats
+### 📈📊 𝑮𝒊𝒕𝑯𝒖𝒃 𝑺𝒕𝒂𝒕𝒔
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
