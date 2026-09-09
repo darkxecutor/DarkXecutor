@@ -44,7 +44,7 @@
 ### 📊 Statistics
 
 <p align="center">
-  <img src="https://github.com/darkxecutor/DarkXecutor/blob/bc650f423784f05a9b104ad270f3cdb77e1badb7/tumblr_owi25v6uAo1r4gsiio1_1280_gif%20(1000%C3%97300)%20in%202024%20_%20Pixel%20art%20design%2C%20Pixel%20art%20background%2C%20Pix.gif" width="500" alt="Gear Animation" />
+  <img src="https://github.com/darkxecutor/DarkXecutor/blob/14d9d1a11c93d7539ca0fdfe1a7c34738ec11336/Scuba%20Dancing%20Cat%20Sticker%20-%20Find%20%26%20Share%20on%20GIPHY.gif" width="190" alt="Gear Animation" />
   <img src="https://komarev.com/ghpvc/?username=darkxecutor&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/darkxecutor?label=Followers&style=social" alt="GitHub Followers" />
 </p>
