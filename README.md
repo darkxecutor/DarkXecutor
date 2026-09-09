@@ -1,8 +1,14 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=150&text=darkxecutor&fontSize=50&fontColor=61DAFB&fontAlignY=45&animation=twinkling&section=header" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=150&text=JAWAD%20darkxecutor&fontSize=50&fontColor=61DAFB&fontAlignY=45&animation=twinkling&section=header" alt="header"/>
 </div>
 
-<h1 align="center">🛡️ JAWAD darkxecutor</h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F97316&center=true&width=910&height=150&lines=JAWAD_Darkxecutor;Web+Developer;Tools+Developer+or+Software+Tools+Developer" alt="Typing SVG" />
+</h1>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="100" alt="Waving Animation" />
+</p>
 
 <p align="center">
   <em>"Our goal is as clear as the sun, and our path is carved with willpower. This is the time for action, so let our steps be the language that rises above the noise."</em>
@@ -46,34 +52,70 @@
 
 ### 🛠️ Skills & Tools
 
-#### 💻 Programming Languages
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c" alt="C" />
-  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
-  <img src="https://skillicons.dev/icons?i=python" alt="Python" />
-  <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
-  <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td valign="top" width="50%">
+        <h3>💻 Programming Languages</h3>
+        <p align="center">
+          <img src="https://skillicons.dev/icons?i=c" alt="C" />
+          <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
+          <img src="https://skillicons.dev/icons?i=python" alt="Python" />
+          <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
+          <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
+        </p>
+      </td>
+      <td valign="top" width="50%">
+        <h3>🧰 Tools & Platforms</h3>
+        <p align="center">
+          <img src="https://skillicons.dev/icons?i=git" alt="Git" />
+          <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+          <img src="https://skillicons.dev/icons?i=linux" alt="Linux" />
+          <img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux" />
+          <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-#### 🧰 Tools & Platforms
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git" alt="Git" />
-  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
-  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" />
-  <img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux" />
-  <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
-</p>
+<div align="center">
+  <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="150" alt="Coding Animation" />
+</div>
 
 ---
 
 ### 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github.com/darkxecutor/DarkXecutor/blob/0c62288c6fac2c742e66d0155c4d140efc55e16e/tumblr_owi25v6uAo1r4gsiio1_1280_gif%20(1000%C3%97300)%20in%202024%20_%20Pixel%20art%20design%2C%20Pixel%20art%20background%2C%20Pix.gif" alt="GitHub Stats" />
-  <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=darkxecutor&theme=radical&hide_border=true" alt="GitHub Streak" />
   <br/>
-  <img src="https://github.com/darkxecutor/DarkXecutor/blob/6cd1c3792542a1102a48aa7cc7599a022ebe60f5/oogabooga.gif" alt="Top Languages" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=darkxecutor&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <br/>
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</div>
+
+---
+
+### 🎯 Featured Projects
+
+<div align="center">
+  <a href="https://github.com/darkxecutor/project1">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=darkxecutor&repo=project1&theme=radical&hide_border=true" alt="Project 1" />
+  </a>
+  <a href="https://github.com/darkxecutor/project2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=darkxecutor&repo=project2&theme=radical&hide_border=true" alt="Project 2" />
+  </a>
+</div>
+
+---
+
+### 🐍 Contribution Snake
+
+<div align="center">
+  <img src="https://github.com/darkxecutor/darkxecutor/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </div>
 
 ---
