@@ -69,7 +69,7 @@
 ### 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=darkxecutor&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github.com/darkxecutor/DarkXecutor/blob/0c62288c6fac2c742e66d0155c4d140efc55e16e/tumblr_owi25v6uAo1r4gsiio1_1280_gif%20(1000%C3%97300)%20in%202024%20_%20Pixel%20art%20design%2C%20Pixel%20art%20background%2C%20Pix.gif" alt="GitHub Stats" />
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=darkxecutor&theme=radical&hide_border=true" alt="GitHub Streak" />
   <br/>
