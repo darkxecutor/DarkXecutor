@@ -53,7 +53,8 @@
 ### 🛠️ Skills & Tools
 
 <div align="center">
-  <h3>💻 Programming Languages</h3>
+  <img src="https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" width="120" alt="Gear Animation" />
+  <h3 style="color: #F7DF1E;">💻 Programming Languages</h3>
   <p align="center">
     <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
     <img src="https://skillicons.dev/icons?i=python" alt="Python" />
@@ -61,7 +62,7 @@
     <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
   </p>
   
-  <h3>🧰 Tools & Platforms</h3>
+  <h3 style="color: #F7DF1E;">🧰 Tools & Platforms</h3>
   <p align="center">
     <img src="https://skillicons.dev/icons?i=git" alt="Git" />
     <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
