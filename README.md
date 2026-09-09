@@ -73,7 +73,7 @@
 </div>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="150" alt="Coding Animation" />
+  <img src="https://github.com/darkxecutor/DarkXecutor/blob/9e4fd1a96336398ebedf64120c80e93cd65bbdd9/4663b9de-02e7-4c3c-aec4-b96d949f09d8.gif" width="150" alt="Coding Animation" />
 </div>
 
 ---
