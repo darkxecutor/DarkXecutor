@@ -81,33 +81,10 @@
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=darkxecutor&theme=radical&hide_border=true" alt="GitHub Streak" />
-  <br/>
-  <br/>
+  <br/><br/>
   <img src="https://github-readme-stats.vercel.app/api?username=darkxecutor&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <br/>
-  <br/>
+  <br/><br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
-
----
-
-### 🎯 Featured Projects
-
-<div align="center">
-  <a href="https://github.com/darkxecutor/project1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=darkxecutor&repo=project1&theme=radical&hide_border=true" alt="Project 1" />
-  </a>
-  <a href="https://github.com/darkxecutor/project2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=darkxecutor&repo=project2&theme=radical&hide_border=true" alt="Project 2" />
-  </a>
-</div>
-
----
-
-### 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://github.com/darkxecutor/darkxecutor/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </div>
 
 ---
