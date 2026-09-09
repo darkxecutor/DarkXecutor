@@ -73,7 +73,7 @@
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=darkxecutor&theme=radical&hide_border=true" alt="GitHub Streak" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://github.com/darkxecutor/DarkXecutor/blob/6cd1c3792542a1102a48aa7cc7599a022ebe60f5/oogabooga.gif" alt="Top Languages" />
 </div>
 
 ---
