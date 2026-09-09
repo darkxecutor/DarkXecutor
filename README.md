@@ -16,7 +16,7 @@
 
 ---
 
-### 📫 Connect with Me
+### 🌐 Connect with Me
 
 <p align="right">
   <a href="mailto:your-email@gmail.com">
@@ -51,11 +51,11 @@
 
 ---
 
-### 🛠️ Skills & Tools
+### 💻 Skills & Tools
 
 <div align="center">
   <img src="https://github.com/darkxecutor/DarkXecutor/blob/bc650f423784f05a9b104ad270f3cdb77e1badb7/tumblr_owi25v6uAo1r4gsiio1_1280_gif%20(1000%C3%97300)%20in%202024%20_%20Pixel%20art%20design%2C%20Pixel%20art%20background%2C%20Pix.gif" width="500" alt="Gear Animation" />
-  <h3 style="color: #F7DF1E;">💻 Programming Languages</h3>
+  <h3 style="color: #F7DF1E;">🛠️ Programming Languages</h3>
   <p align="center">
     <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
     <img src="https://skillicons.dev/icons?i=python" alt="Python" />
@@ -63,7 +63,7 @@
     <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
   </p>
   
-  <h3 style="color: #F7DF1E;">🧰 Tools & Platforms</h3>
+  <h3 style="color: #F7DF1E;">⚙️ Tools & Platforms</h3>
   <p align="center">
     <img src="https://skillicons.dev/icons?i=git" alt="Git" />
     <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
@@ -86,7 +86,12 @@
   <br/><br/>
   <img src="https://github-readme-stats.vercel.app/api?username=darkxecutor&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <!-- تم جلب إحصائيات اللغات من الملف الأول مع تعديل لغة C لتصبح Python -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-seven.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&langs_count=8&theme=transparent&title_color=00bfff&text_color=ffffff">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-six-seven.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&langs_count=8&theme=default">
+    <img alt="Top Languages" src="https://github-readme-stats-six-seven.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&langs_count=8&theme=default" height="200px">
+  </picture>
 </div>
 
 ---
