@@ -21,20 +21,14 @@
 ### 🍟🎃 𝑪𝒐𝒏𝒏𝒆𝒄𝒕 𝒘𝒊𝒕𝒉 𝑴𝒆
 
 <p align="right">
-  <a href="mailto:your-email@gmail.com">
+  <a href="mailto:darkxecutor@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://instagram.com/your-profile">
+  <a href="https://www.instagram.com/jawad_smlali_?stkn=MXhubGt0a2RjOXMyZg==">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
-  <a href="https://facebook.com/your-profile">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
-  </a>
-  <a href="https://discord.gg/your-invite">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  <a href="https://www.youtube.com/@jawad_darkxecutor">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
   </a>
   <a href="https://whatsapp.com/channel/0029Vb660XQ65yDGjrTGBM3g">
     <img src="https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
@@ -90,13 +84,13 @@
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-seven.vercel.app/api?username=darkxecutor&show_icons=true&count_private=true&theme=transparent&title_color=00bfff&icon_color=00bfff&text_color=ffffff">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-seven.vercel.app/api?username=darkxecutor&show_icons=true&count_private=true&theme=transparent&title_color=F4D03F&icon_color=F4D03F&text_color=ffffff">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-six-seven.vercel.app/api?username=darkxecutor&show_icons=true&count_private=true&theme=default">
     <img alt="GitHub Stats" src="https://github-readme-stats-six-seven.vercel.app/api?username=darkxecutor&show_icons=true&count_private=true&theme=default" height="200px">
   </picture>
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-seven.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&langs_count=8&theme=transparent&title_color=00bfff&text_color=ffffff&custom_title=Python%20&%20Languages">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-six-seven.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&langs_count=8&theme=transparent&title_color=F4D03F&text_color=ffffff&custom_title=𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆𝒔%20𝒐𝒏%20𝑮𝒊𝒕𝑯𝒖𝒃">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-six-seven.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&langs_count=8&theme=default">
     <img alt="Top Languages" src="https://github-readme-stats-six-seven.vercel.app/api/top-langs/?username=darkxecutor&layout=compact&langs_count=8&theme=default" height="200px">
   </picture>
@@ -105,7 +99,7 @@
 
 <div align="center">
   <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=darkxecutor&theme=transparent&ring=00bfff&fire=00bfff&currStreakLabel=00bfff" alt="GitHub Streak" height="200px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=darkxecutor&theme=transparent&ring=F4D03F&fire=F4D03F&currStreakLabel=F4D03F" alt="GitHub Streak" height="200px"/>
 </div>
 
 ---
