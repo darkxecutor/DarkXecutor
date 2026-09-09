@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://github.com/darkxecutor/DarkXecutor/blob/e45458c12a739c991e2b98996f148ef0d3524829/oogabooga.gif" width="100" alt="Waving Animation" />
+  <img src="https://github.com/darkxecutor/DarkXecutor/raw/e45458c12a739c991e2b98996f148ef0d3524829/oogabooga.gif" width="220" alt="Waving Animation" />
 </p>
 
 <p align="center">
