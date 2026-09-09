@@ -18,7 +18,7 @@
 
 ---
 
-### 🍟🎃 Connect with Me
+### 🍟🎃 𝑪𝒐𝒏𝒏𝒆𝒄𝒕 𝒘𝒊𝒕𝒉 𝑴𝒆
 
 <p align="right">
   <a href="mailto:your-email@gmail.com">
@@ -42,6 +42,10 @@
 </p>
 
 ---
+### 📰🗞️ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑵𝒆𝒘𝒔
+
+---
+
 
 ### 📈📉 𝑺𝒕𝒂𝒕𝒊𝒔𝒕𝒊𝒄𝒔
 
