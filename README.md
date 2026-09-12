@@ -24,12 +24,23 @@
   <a href="mailto:darkxecutor@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
+  <br>
   <a href="https://www.instagram.com/jawad_smlali_?stkn=MXhubGt0a2RjOXMyZg==">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
+  <br>
   <a href="https://www.youtube.com/@jawad_darkxecutor">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
   </a>
+  <br>
+  <a href="https://discord.com/users/jawad_darkxecutor">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  </a>
+  <br>
+  <a href="https://www.linkedin.com/in/dark-xecutor-489b01381?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <br>
   <a href="https://whatsapp.com/channel/0029Vb660XQ65yDGjrTGBM3g">
     <img src="https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
   </a>
@@ -37,6 +48,21 @@
 
 ---
 ### 📰🗞️ 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑵𝒆𝒘𝒔
+
+<table>
+<tr>
+<td width="130" align="center" valign="top">
+  <img src="https://github.com/darkxecutor/DarkXecutor/blob/c0be0364e42c43bbc318d9553f7473ae0c629f31/IMG-20260912-WA0089_1_-removebg-preview.png" width="110" alt="DARKGEDDON Logo" />
+</td>
+<td valign="top">
+
+**🚀 DARKGEDDON — Coming Soon**
+
+I'm currently developing **DARKGEDDON**, a Python-based tool inspired by **Airgeddon**, focused on wireless network auditing and security testing. The tool is still under active development, and a release date has not been set yet. Stay tuned for updates!
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -77,6 +103,7 @@
     <img src="https://skillicons.dev/icons?i=linux" alt="Linux" />
     <img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux" />
     <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
+    <img src="https://skillicons.dev/icons?i=replit" alt="Replit" />
   </p>
 </div>
 
