@@ -40,6 +40,13 @@
 
 ---
 
+### 🌐📊 𝟑𝑫 𝑪𝒐𝒏𝒕𝒓𝒊𝒃𝒖𝒕𝒊𝒐𝒏 𝑮𝒓𝒂𝒑𝒉
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" />
+</div>
+
+---
 
 ### 📈📉 𝑺𝒕𝒂𝒕𝒊𝒔𝒕𝒊𝒄𝒔
 
